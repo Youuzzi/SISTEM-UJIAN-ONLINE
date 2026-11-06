@@ -1,0 +1,60 @@
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+.nbproject/
+*.sublime-workspace
+*.sublime-project
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local CodeIgniter configuration
+/application/config/database.php
+/application/config/config.php
+
+# Dependencies
+/vendor/
+node_modules/
+
+# CodeIgniter cache
+/application/cache/*
+!/application/cache/index.html
+!/application/cache/.htaccess
+
+# CodeIgniter logs
+/application/logs/*
+!/application/logs/index.html
+!/application/logs/.htaccess
+
+# Temporary and debug files
+*.log
+phpinfo.php
+
+# Database dumps and backups
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.old
+*.backup
+*.zip
+*.rar
+*.7z
+
+# Local database backup without extension
+/db
+
+# Test output
+/tests/results/
+/tests/tests/
+
+# Public demo database
+!database/dbujianonline.sql
